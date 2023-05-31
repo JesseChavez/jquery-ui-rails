@@ -11,6 +11,8 @@ Gem::Specification.new do |s|
   s.description = "jQuery UI's JavaScript, CSS, and image files packaged for the Rails 3.1+ asset pipeline"
   s.license     = "MIT"
 
+  s.metadata['allowed_push_host'] = 'http://gems.ibsa.vlan:8808'
+
   s.required_rubygems_version = ">= 1.3.6"
 
   s.add_dependency "railties", ">= 3.2.16"
